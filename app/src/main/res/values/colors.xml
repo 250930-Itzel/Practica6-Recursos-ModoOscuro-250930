@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primarioIJS">#4A235A</color>
+    <color name="acentoIJS">#F5B041</color>
+    <color name="fondoIJS">#F4F6F7</color>
+    <color name="textoIJS">#15202B</color>
+    <color name="textoBotonIJS">#FFFFFF</color>
+</resources>
