@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoIJS"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_inicialIJS"
+            android:textColor="@color/textoIJS"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etxtNombre"
+            style="@style/CampoIJS"
+            android:hint="@string/hint_nombreIJS"
+            android:inputType="textPersonName"
+            android:autofillHints="name"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/etxtMatricula"
+            style="@style/CampoIJS"
+            android:hint="@string/hint_matriculaIJS"
+            android:inputType="number"
+            android:maxLength="7"
+            android:autofillHints="username"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            style="@style/BotonIJS"
+            android:text="@string/btn_registrarIJS" />
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            style="@style/BotonIJS"
+            android:text="@string/btn_limpiarIJS" />
+
+        <Button
+            android:id="@+id/btnTema"
+            style="@style/BotonIJS"
+            android:text="@string/btn_tema_oscuroIJS" />
+    </LinearLayout>
+</ScrollView>
