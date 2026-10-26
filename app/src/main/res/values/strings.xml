@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asistencia IJS</string>
+    <string name="msg_inicialIJS">Escribe tus datos para registrarte</string>
+    <string name="hint_nombreIJS">Ingresa tu nombre</string>
+    <string name="hint_matriculaIJS">Ingresa tu matrícula</string>
+    <string name="btn_registrarIJS">Registrar</string>
+    <string name="btn_registrar_otroIJS">Registrar otro</string>
+    <string name="btn_limpiarIJS">Limpiar</string>
+    <string name="btn_tema_oscuroIJS">Modo oscuro</string>
+    <string name="btn_tema_claroIJS">Modo claro</string>
+    <string name="val_nombre_vacioIJS">Escribe tu nombre</string>
+    <string name="val_nombre_cortoIJS">El nombre es demasiado corto</string>
+    <string name="val_matricula_vaciaIJS">Escribe tu matrícula</string>
+    <string name="val_matricula_largoIJS">La matrícula debe tener 7 dígitos</string>
+    <string name="msg_registradoIJS">Registrado: %1$s (%2$s)\nAsistente número %3$d</string>
+</resources>
